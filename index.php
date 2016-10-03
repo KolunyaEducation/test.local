@@ -4,17 +4,10 @@ $a = $_GET['a'];
 $arr = array();
 foreach ($a as $value) {
     if(isset($value) && is_numeric($value)) {
-        $arr[]=$value;}
+        $arr[]=$value;
+    }
 
 }
-
-print_r( $arr);
-echo '<br/>';
-
-
-
-/*
-
 
 $s = count($arr)-1;
 for($i=$s; $i>=0; $i--) {
@@ -28,7 +21,6 @@ for($i=$s; $i>=0; $i--) {
 
 print_r($arr);
 echo '<br/>';
-sort($arr1);
-print_r($arr1);
+sort($arr);
+print_r($arr);
 echo '<br/>';
-*/
