@@ -9,12 +9,12 @@
 
 <form action='index.php' method='post'>
     <center><p>Ваше имя: </p></center>
-        <center><p><input type='text' name='name' /></p></center>
-            <center><p>E-mail: </p></center>
-                <center><p><input type='text' name='email' /></p></center>
-                    <center><p>Сообщение:</p></center>
-                        <center><p><textarea rows='10' cols='45' name='message' minlength='5'></textarea></p></center>
-                            <center><input type='submit' name='submit' value='Отправить'></center>
+    <center><p><input type='text' name='name' /></p></center>
+    <center><p>E-mail: </p></center>
+    <center><p><input type='text' name='email' /></p></center>
+    <center><p>Сообщение:</p></center>
+    <center><p><textarea rows='10' cols='45' name='message' minlength='5'></textarea></p></center>
+    <center><input type='submit' name='submit' value='Отправить'></center>
 
 </form>
 
@@ -33,10 +33,7 @@ if (isset($_POST['submit'])) {
                 $email = $_POST['email'];
                 $msg = $_POST['message'];
                 mail('wmatrosw@gmail.com', 'Сообщение от '.$name, $msg);
-                echo '<center>E-mail отправлен!</center>';
-                echo '<center>$name</center>';
-                echo '<center>$email</center>';
-                echo '<center>$msg</center>';
+                echo "<p align='center'> E-mail отправлен!<br> Имя: $name <br>Адрес отправителя:  $email <br>Текст сообщения: $msg</p>";
             }
         }
     }
