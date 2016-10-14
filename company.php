@@ -46,17 +46,20 @@
 </head>
 <body>
 <div id="container">
-    <div id="header"><h1>Kolunya Education Company</h1></div>
-    <div id="sidebar">
-        <p><a href="index.php">Главная</a></p>
-        <p><a href="company.php">О Компании</a></p>
-        <p><a href="contact.php">Контакты</a></p>
-    </div>
-    <div id="content">
-        <h2>Компания обучения Колюни</h2>
-        <p>Здесь вы прочитаете о компании обучения Колюни</p>
-    </div>
-    <div id="footer">&copy; Kolunya Education</div>
+<div id="header"><h1>Kolunya Education Company</h1></div>
+<div id="sidebar">
+    <p><a href="index.php">Главная</a></p>
+    <p><a href="company.php">О Компании</a></p>
+    <p><a href="contact.php">Контакты</a></p>
+</div>
+<div id="content">
+    <h2>Компания обучения Колюни</h2>
+    <p>И вышел Колюня на тропу учения. И был он неопытен и глуп. Старается и усердствует
+    Колюня. А помощь ему оказывает несусветную на этом темном пути великий и могучий Клауд</p>
+    <p>Ведет он его и путь правдный указывает! А ежели Колюня попробует свернуть с пути этого, грубой силушкой
+    повернет его в нужное направление</p>
+</div>
+<div id="footer">&copy; Kolunya Education</div>
 </div>
 </body>
 </html>
