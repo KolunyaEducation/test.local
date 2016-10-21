@@ -1,20 +1,12 @@
-
-
-        <form action='contact.php' method='post'>
-            <center><p>Ваше имя: </p></center>
-            <center><p><input type='text' name='name' /></p></center>
-            <center><p>E-mail: </p></center>
-            <center><p><input type='text' name='email' /></p></center>
-            <center><p>Сообщение:</p></center>
-            <center><p><textarea rows='10' cols='45' name='message' minlength='5'></textarea></p></center>
-            <center><input type='submit' name='submit' value='Отправить'></center>
-
-        </form>
-
-
-
-
-
+<form action='index.php' method='post'>
+    <center><p>Ваше имя: </p></center>
+    <center><p><input type='text' name='name' /></p></center>
+    <center><p>E-mail: </p></center>
+    <center><p><input type='text' name='email' /></p></center>
+    <center><p>Сообщение:</p></center>
+    <center><p><textarea rows='10' cols='45' name='message' minlength='5'></textarea></p></center>
+    <center><input type='submit' name='submit' value='Отправить'></center>
+</form>
 
 <?php
 if (isset($_POST['submit'])) {
@@ -37,4 +29,3 @@ if (isset($_POST['submit'])) {
     }
 }
 ?>
-

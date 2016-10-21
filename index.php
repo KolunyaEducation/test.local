@@ -1,5 +1,5 @@
 <?php
-
+ob_start();
 switch ($_GET['page']) {
     case 'main':
         $content= require __DIR__.'\main.php';
@@ -14,6 +14,10 @@ switch ($_GET['page']) {
         $content= require __DIR__.'\main.php';
         break;
 }
+$content= ob_get_contents();
+ob_end_clean();
+
 require_once(__DIR__.'\layout.php');
+echo $_GET['page'];
 
 ?>

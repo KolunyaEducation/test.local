@@ -19,4 +19,3 @@
             и include нужного файла
             просто захардкодь
             href="/index.php?page=contact"</p>
-
