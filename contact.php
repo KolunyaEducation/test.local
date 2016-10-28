@@ -1,3 +1,6 @@
+<?php
+defined('_JEXEC') or die('Ай-яй-яй, сюда нельзя!');
+?>
 <form action='index.php?page=contact' method='post'>
     <center><p>Ваше имя: </p></center>
     <center><p><input type='text' name='name' /></p></center>
@@ -9,6 +12,7 @@
 </form>
 
 <?php
+defined('_JEXEC') or die('Ай-яй-яй, сюда нельзя!');
 if (isset($_POST['submit'])) {
     if (isset($_POST['name']) && isset($_POST['email']) && isset($_POST['message'])){
         if (empty($_POST['name']) || empty($_POST['email']) || empty($_POST['message'])){

@@ -1,15 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset='UTF-8'>
-    <title>название странички</title>
-</head>
-<body>
-
-</body>
-
-</html>
 <?php
+define( '_JEXEC', 1 );
+
 ob_start();
 switch ($_GET['page']) {
     case 'main':
@@ -20,6 +11,9 @@ switch ($_GET['page']) {
         break;
     case 'company':
         $content= require __DIR__.'\company.php';
+        break;
+    case 'function':
+        $content= require __DIR__.'\functions.php';
         break;
     default:
         $content= require __DIR__.'\main.php';
