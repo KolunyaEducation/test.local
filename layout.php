@@ -15,7 +15,7 @@ defined('_JEXEC') or die('Ай-яй-яй, сюда нельзя!');
         <p><a href='/index.php?page=main'>Главная</a></p>
         <p><a href='/index.php?page=company'>О Компании</a></p>
         <p><a href='/index.php?page=contact'>Контакты</a></p>
-        <p><a href='/index.php?page=function'>Функция</a></p>
+        <p><a href='/index.php?page=check_exponent'>Функция</a></p>
     </div>
     <div id="content"><?php echo $content;?></div>
     <div id="footer">&copy; Kolunya Education</div>

@@ -12,8 +12,8 @@ switch ($_GET['page']) {
     case 'company':
         $content= require __DIR__.'\company.php';
         break;
-    case 'function':
-        $content= require __DIR__.'\functions.php';
+    case 'check_exponent':
+        $content= require __DIR__.'\check_exponent.php';
         break;
     default:
         $content= require __DIR__.'\main.php';
